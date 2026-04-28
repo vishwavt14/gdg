@@ -11,7 +11,7 @@ export interface AuditResult {
   providedIn: 'root'
 })
 export class AuditService {
-  private apiUrl = 'http://127.0.0.1:8000/api/audit';
+  private apiUrl = 'https://gdg-b.onrender.com/api/audit';
 
   constructor(private http: HttpClient) { }
 
